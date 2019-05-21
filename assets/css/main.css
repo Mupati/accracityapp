@@ -1,0 +1,142 @@
+a {
+  text-decoration: none;
+}
+header {
+  background: rgb(13, 126, 191);
+  background: linear-gradient(
+    142deg,
+    rgba(13, 126, 191, 1) 42%,
+    rgba(11, 142, 203, 1) 50%,
+    rgba(1, 206, 251, 1) 96%,
+    rgba(13, 126, 191, 1) 100%
+  );
+}
+
+.logo {
+  margin-left: 7.5%;
+}
+.navbar-brand {
+  color: #ffe;
+  margin-left: 100px;
+  font-weight: 40px;
+  text-transform: capitalize;
+  font-weight: bolder;
+}
+.nav-link {
+  color: #fff;
+}
+.hero-desc {
+  margin-top: 90px;
+  color: #fff;
+}
+#hero h3,
+#testimonials h3 {
+  text-transform: capitalize;
+  font-size: 45px;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+.shape-divider {
+  color: #fff;
+}
+/* #hero-top {
+  position: absolute;
+  top: -100px;
+  right: -100px;
+  z-index: 1;
+  background: red;
+  border-radius: 50%;
+  padding: 300px;
+  overflow: hidden;
+} */
+
+.download-btn {
+  display: inline-block;
+  border-radius: 10px;
+  padding: 0.5em 1em;
+  border: 1px solid blue;
+  background: #fff;
+  font-weight: bolder;
+  font-size: 20px;
+}
+.download-btn img {
+  display: block;
+  width: 30px;
+  float: left;
+  margin-right: 5px;
+}
+.download-btn:hover {
+  background: transparent;
+  border-color: #fff;
+  color: #fff;
+  text-decoration: none;
+}
+.social-icons img {
+  width: 30px;
+}
+
+#testimonials {
+  background-image: url("../img/bg-image.svg");
+  color: #fff;
+  position: relative;
+}
+#testimonials::before {
+  content: "";
+  position: absolute;
+  display: block;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgb(13, 126, 191);
+  background: linear-gradient(
+    142deg,
+    rgba(13, 126, 191, 1) 42%,
+    rgba(11, 142, 203, 1) 50%,
+    rgba(1, 206, 251, 1) 96%,
+    rgba(13, 126, 191, 1) 100%
+  );
+}
+
+.testimony-image {
+  width: 150px;
+  border-radius: 50%;
+  margin: 0 auto;
+}
+
+.quote {
+  font-size: 5em;
+  font-weight: bolder;
+}
+.testimony-name {
+  margin-top: 10px;
+}
+#about img {
+  width: 200px;
+}
+
+footer {
+  position: relative;
+  color: #fff;
+}
+footer::after {
+  content: "";
+  position: absolute;
+  display: block;
+  top: -250px;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background-image: url("../img/footer-bg.png");
+  background-size: cover;
+  z-index: -1;
+}
+
+#contact {
+  margin-bottom: 50px;
+}
+.btn-submit {
+  border: 1px solid rgba(13, 126, 191, 1);
+  margin: 0 auto;
+}
