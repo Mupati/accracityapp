@@ -17,6 +17,10 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css"
     />
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato|Roboto&display=swap"
+      rel="stylesheet"
+    />
     <title>Accra City App</title>
   </head>
   <body>
@@ -86,7 +90,8 @@
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Corporis, aspernatur id? Repellat consequuntur, commodi tempore
                 sequi eum ipsam porro minus ex? Nemo facere, voluptatem sit ex
-                voluptas et esse quae.
+                voluptas et esse quae.<br>
+                Download form Play Store or App Store
               </p>
 
               <a href="#" class="download-btn"
@@ -100,7 +105,7 @@
               <img
                 src="./assets/img/slanted.png"
                 alt="mobile applicatioin"
-                class="img-fluid"
+                class="img-fluid rellax"
               />
             </div>
           </div>
@@ -166,7 +171,9 @@
           </div>
         </div>
         <svg
-          class="shape-divider"
+          class="shape-divider rellax"
+          data-rellax-speed="4"
+          data-rellax-percentage="0.5"
           fill="#014fb2"
           xmlns="http://www.w3.org/2000/svg"
           viewBox="0 0 1000 300"
@@ -451,6 +458,8 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
+    <script src="./assets/js/rellax.min.js"></script>
+    <!-- <script src="./assets/js/main.js"></script> -->
     <script>
       $(document).ready(function() {
         $("#owl-one").owlCarousel({
@@ -511,6 +520,8 @@
             2000
           );
         });
+
+        var rellax = new Rellax(".rellax");
       });
     </script>
   </body>

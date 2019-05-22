@@ -1,10 +1,22 @@
+html,
+body {
+  font-family: "Roboto", sans-serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Lato", sans-serif;
+}
 a {
   text-decoration: none;
 }
 
 p {
   line-height: 30px;
-  word-spacing: 5px;
+  word-spacing: 3px;
   font-size: 18px;
   font-weight: 400;
 }
@@ -66,18 +78,8 @@ header {
   width: 150%;
 }
 
-.shape-divider {
+/* .shape-divider {
   color: #fff;
-}
-/* #hero-top {
-  position: absolute;
-  top: -100px;
-  right: -100px;
-  z-index: 1;
-  background: red;
-  border-radius: 50%;
-  padding: 300px;
-  overflow: hidden;
 } */
 
 .download-btn {
@@ -106,7 +108,6 @@ header {
 }
 
 #testimonials {
-  background-image: url("../img/bg-image.svg");
   color: #fff;
   position: relative;
 }
