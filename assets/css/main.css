@@ -1,6 +1,14 @@
 a {
   text-decoration: none;
 }
+
+p {
+  line-height: 30px;
+  word-spacing: 5px;
+  font-size: 18px;
+  font-weight: 400;
+}
+
 header {
   background: rgb(13, 126, 191);
   background: linear-gradient(
@@ -25,6 +33,18 @@ header {
 .nav-link {
   color: #fff;
 }
+.navbar-toggler {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+}
+.navbar-nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
 .hero-desc {
   margin-top: 90px;
   color: #fff;
@@ -35,6 +55,15 @@ header {
   font-size: 45px;
   font-weight: bold;
   letter-spacing: 2px;
+}
+
+.item {
+  height: 100%;
+}
+
+.owl-carousel .owl-item img {
+  height: 150%;
+  width: 150%;
 }
 
 .shape-divider {
@@ -139,4 +168,18 @@ footer::after {
 .btn-submit {
   border: 1px solid rgba(13, 126, 191, 1);
   margin: 0 auto;
+}
+
+/* Media Queries */
+@media only screen and (max-width: 600px) {
+  .download-btn {
+    padding: 0.35em 0.75em;
+    border: 1px solid blue;
+    font-weight: bold;
+    font-size: 15px;
+  }
+  .download-btn img {
+    width: 20px;
+    margin-right: 3px;
+  }
 }

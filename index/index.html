@@ -17,7 +17,7 @@
   </head>
   <body>
     <header>
-      <nav class="navbar navbar-expand-lg">
+      <nav class="navbar navbar-expand-md">
         <!-- <a class="navbar-brand" href="#"> -->
         <img
           src="/assets/img/logo2.svg"
@@ -399,6 +399,7 @@
       $(document).ready(function() {
         $("#owl-one").owlCarousel({
           loop: true,
+          autoplay: true,
           responsiveClass: true,
           responsive: {
             0: {
@@ -418,6 +419,8 @@
         });
 
         $("#owl-two").owlCarousel({
+          autoplay: true,
+          loop: true,
           responsiveClass: true,
           responsive: {
             0: {

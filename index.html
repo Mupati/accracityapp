@@ -13,6 +13,10 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css"
+    />
     <title>Accra City App</title>
   </head>
   <body>
@@ -26,7 +30,7 @@
         />
         <!-- </a> -->
         <button
-          class="navbar-toggler btn-success"
+          class="navbar-toggler"
           type="button"
           data-toggle="collapse"
           data-target="#navbarNav"
@@ -34,23 +38,39 @@
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
-          <span class="navbar-toggler-icon"></span>
+          <span class="navbar-toggler-icon"
+            ><img src="./assets/img/dial.svg"
+          /></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarNav" class="mr-5">
-          <ul class="navbar-nav ml-auto mr-5">
+        <div
+          class="collapse navbar-collapse"
+          id="navbarNav"
+          class="mr-md-5 mr-lg-md-5"
+        >
+          <ul class="navbar-nav ml-md-auto mr-5 align-top">
             <li class="nav-item active">
-              <a class="nav-link" href="#"
+              <a class="nav-link text-uppercase font-weight-bold " href="#about"
                 >About <span class="sr-only"></span
               ></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">App's Look</a>
+              <a class="nav-link text-uppercase font-weight-bold" href="#usage"
+                >App's Look</a
+              >
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Reviews</a>
+              <a
+                class="nav-link text-uppercase font-weight-bold"
+                href="#testimonials"
+                >Reviews</a
+              >
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Contact</a>
+              <a
+                class="nav-link text-uppercase font-weight-bold"
+                href="#contact"
+                >Contact</a
+              >
             </li>
           </ul>
         </div>
@@ -76,7 +96,7 @@
                 ><img src="./assets/img/app-store.svg" />App Store
               </a>
             </div>
-            <div class="col-md-6 text-center hero-img">
+            <div class="col-md-6 text-center hero-img mt-sm-5 mt-md-0 mt-lg-0">
               <img
                 src="./assets/img/slanted.png"
                 alt="mobile applicatioin"
@@ -93,7 +113,9 @@
         <div class="container">
           <div class="row">
             <div class="col-md-8 offset-md-2 py-3 text-center">
-              <h2 class="py-3 text-uppercase">Making Life Easy in Accra</h2>
+              <h3 class="py-3 text-uppercase font-weight-bold">
+                Making Life Easy in Accra
+              </h3>
               <p class="py-4">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam
                 veniam porro qui aliquid eligendi, laborum, dolores vitae
@@ -164,49 +186,79 @@
 
       <section id="usage" class="py-5">
         <div class="container text-center">
-          <h2>ELEGANT APPLICATION DISPLAY</h2>
+          <h3 class="py-5 text-uppercase font-weight-bold">
+            ELEGANT APPLICATION DISPLAY
+          </h3>
           <div class="row owl-carousel" id="owl-one">
             <div class="col-md-12">
-              <img
-                src="./assets/img/usage1.svg"
-                alt="usage_image"
-                class="img-fluid item"
-              />
+              <a
+                href="./assets/img/usage1.svg"
+                data-fancybox="images"
+                data-width="2048"
+                data-height="1365"
+              >
+                <img src="./assets/img/usage1.svg" alt="usage_image" />
+              </a>
             </div>
             <div class="col-md-12">
-              <img
-                src="./assets/img/usage2.svg"
-                alt="usage_image"
-                class="img-fluid item"
-              />
+              <a
+                href="./assets/img/usage2.svg"
+                data-fancybox="images"
+                data-width="2048"
+                data-height="1365"
+              >
+                <img
+                  src="./assets/img/usage2.svg"
+                  alt="usage_image"
+                  class="img-fluid item"
+                />
+              </a>
             </div>
             <div class="col-md-12">
-              <img
-                src="./assets/img/usage.png"
-                alt="usage_image"
-                class="img-fluid item"
-              />
+              <a href="./assets/img/usage.png" data-fancybox="images">
+                <img
+                  src="./assets/img/usage.png"
+                  alt="usage_image"
+                  class="img-fluid item"
+                />
+              </a>
             </div>
             <div class="col-md-12">
-              <img
-                src="./assets/img/usage3.png"
-                alt="usage_image"
-                class="img-fluid item"
-              />
+              <a href="./assets/img/usage3.png" data-fancybox="images">
+                <img
+                  src="./assets/img/usage3.png"
+                  alt="usage_image"
+                  class="img-fluid item"
+                />
+              </a>
             </div>
             <div class="col-md-12">
-              <img
-                src="./assets/img/usage4.svg"
-                alt="usage_image"
-                class="img-fluid item"
-              />
+              <a
+                href="./assets/img/usage4.svg"
+                data-fancybox="images"
+                data-width="2048"
+                data-height="1365"
+              >
+                <img
+                  src="./assets/img/usage4.svg"
+                  alt="usage_image"
+                  class="img-fluid item"
+                />
+              </a>
             </div>
             <div class="col-md-12">
-              <img
-                src="./assets/img/usage5.svg"
-                alt="usage_image"
-                class="img-fluid item"
-              />
+              <a
+                href="./assets/img/usage5.svg"
+                data-fancybox="images"
+                data-width="2048"
+                data-height="1365"
+              >
+                <img
+                  src="./assets/img/usage5.svg"
+                  alt="usage_image"
+                  class="img-fluid item"
+                />
+              </a>
             </div>
           </div>
         </div>
@@ -272,7 +324,9 @@
 
       <section id="contact" class="py-5">
         <div class="container">
-          <h3 class="text-center pb-5">Make Enquiries From Here</h3>
+          <h3 class="text-center pb-5 font-weight-bold text-uppercase">
+            Make Enquiries From Here
+          </h3>
           <div class="row">
             <div class="col-md-8 offset-md-2">
               <div class="contact_from">
@@ -391,10 +445,12 @@
       </ul>
       <p class="text-center">&copy; 2019 Accra City App - Ek-brandconsult</p>
     </footer>
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
     <script>
       $(document).ready(function() {
         $("#owl-one").owlCarousel({
@@ -417,6 +473,15 @@
           }
         });
 
+        $().fancybox({
+          selector: ".owl-item:not(.cloned) a",
+          hash: false,
+          thumbs: {
+            autoStart: true
+          },
+          buttons: ["zoom", "close"]
+        });
+
         $("#owl-two").owlCarousel({
           responsiveClass: true,
           responsive: {
@@ -434,6 +499,17 @@
               loop: false
             }
           }
+        });
+
+        $(".nav-link").on("click", function(e) {
+          e.preventDefault();
+          $(".collapse").collapse("hide");
+          $("html, body").animate(
+            {
+              scrollTop: $(this.hash).offset().top
+            },
+            2000
+          );
         });
       });
     </script>
